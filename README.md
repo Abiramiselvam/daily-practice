@@ -1,2 +1,2 @@
 # daily-practice
-This repository have all the problems that i call everyday
+This repository have all the problems that i solve everyday
