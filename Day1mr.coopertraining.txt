@@ -1,0 +1,19 @@
+#To Lower Case 1
+my_input=str(input())
+print(my_input.lower())
+
+#Detect Capital
+my_input = str(input())
+if (my_input == my_input.capitalize()):
+    print("true")
+elif(my_input == my_input.upper()):
+    print("true")
+elif(my_input == my_input.lower()):
+    print("true")        
+else:
+    print("false")
+
+#Number of Segments in a String
+my_string=str(input())
+x=my_string.split()
+print(len(x))
