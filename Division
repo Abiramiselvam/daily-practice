@@ -1,0 +1,6 @@
+n = int (input())
+m = int (input())
+x = n/m
+y = n//m
+print(x)
+print(y)
