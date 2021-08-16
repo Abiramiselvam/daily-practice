@@ -1,0 +1,6 @@
+listA = []
+# Input number of elemetns
+n = int(input("Enter number of elements in the list : "))
+# Enter elements separated by comma
+listA = list(map(int,input("Enter the numbers : ").strip().split(',')))[:n]
+print("The entered list is: \n",listA)
